@@ -9,6 +9,8 @@
 
 <p align="justify"> This is an AI-powered web application built with <b>Python + Streamlit</b>, that creates personalized weekly meal plans based on your body metrics, goals, and preferences. NutriMate is perfect for individuals who want a health-conscious and goal-oriented diet tailored just for them.</p>
 
+<br>
+
 ## 🚀 Features
 
 - 📥 Input your <b>height, weight, age, gender, activity level, and goal</b> (e.g., weight loss, weight gain, maintenance)
@@ -21,6 +23,17 @@
 
 - 💬 Interactive chatbot interface
 
+<br>
+
+## 🛠️ Technologies Used
+
+- Streamlit for the user interface
+
+- Google Generative AI (Gemini) for intelligent meal planning and tips
+
+- Python for backend logic and data processing
+
+<br>
 
 ## 🚀 How to Use
 
