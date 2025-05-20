@@ -1,4 +1,3 @@
-
 <h1 align = "center"> <b> 🥗 Nutri-Mate : Your Smart AI-Powered Weekly Meal Planner 🍽️ </b> </h1>
 
 <div align="center">
