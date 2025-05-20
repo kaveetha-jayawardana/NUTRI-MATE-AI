@@ -7,6 +7,8 @@ from langchain.llms import HuggingFacePipeline
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 import torch
+from dotenv import load_dotenv
+import os
 
 # ------------------- Configuration -------------------
 st.set_page_config(page_title="NutriMate – AI Meal Planner", layout="centered")
@@ -14,6 +16,9 @@ st.title("🥗 NutriMate – AI-Powered Personalized Meal Planner")
 st.markdown("Generate your weekly meal plan and get smart AI nutrition tips based on your goal.")
 
 # ------------------- GEMINI API Setup -------------------
+load_dotenv()
+GENAI_API_KEY = os.getenv("GEMINI_API_KEY")
+
 GENAI_API_KEY = "AIzaSyCcLx4IFP5_P9z5Wq2TFWkU7F5gSDLULtc"
 use_gemini = False
 
