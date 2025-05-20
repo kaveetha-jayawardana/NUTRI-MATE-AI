@@ -1,5 +1,5 @@
 
-# Nutri-Mate : AI-Powered Weekly Meal Planner 🍽️
+<h1 align = "center"> <b> Nutri-Mate : AI-Powered Weekly Meal Planner 🍽️ </b> </h1>
 
 <div align="center">
   <img height="200" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazE5bjhvM2twYjV5czZ2MDAydWgxN2xpNTQ4bm1tMzhoODU3bWpkdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RltQlCSRa2UMg/giphy.gif"  />
