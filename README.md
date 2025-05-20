@@ -41,6 +41,10 @@
 
 <br>
 
+## 🎥 Demo Video
+Watch how NutriMate works in action : [Click Here for the video](https://youtube.com/shorts/DrHyST4d9-8)
+
+<br>
 
 ## 💡 How to Run Locally
 
