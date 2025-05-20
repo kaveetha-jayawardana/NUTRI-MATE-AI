@@ -21,23 +21,58 @@
 
 - 💡 Provides an **AI-generated Nutrition Tip** based on your personal data
 
-- 💬 Interactive chatbot interface
+- 💬 Interactive, smart and dynamic user interface
 
 <br>
 
 ## 🛠️ Technologies Used
 
-- Streamlit for the user interface
+- `Streamlit` for the user interactive frontend UI
 
-- Google Generative AI (Gemini) for intelligent meal planning and tips
+- `Google Generative AI (Gemini)` for intelligent planning and AI-driven tips
 
-- Python for backend logic and data processing
+- `Hugging Face Transformers` as an AI fallback engine
+
+- `LangChain` for prompt management and response chaining
+
+- `Python`, `Pandas` for backend logic, data processing and meal calculations
+
+- `Torch` for model inference on Hugging Face pipelines
 
 <br>
 
-## 🚀 How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/nutrimate.git
-   cd nutrimate
+## 💡 How to Run Locally
+
+1. Clone the repository
+
+2. Set your Gemini API key as an environment variable:
+
+```bash
+export GOOGLE_API_KEY=your-key
+```
+
+3. Create and activate a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+4. Install dependencies
+
+5. Run the application :
+
+```bash
+streamlit run nutrimate_ai_app.py
+```
+<br>
+
+## 📌 Notes
+
+* The AI tip generator uses Gemini first. If the API fails or quota exceeds, it switches to Hugging Face.
+* The LangChain interface structures and cleans up Hugging Face prompts.
+* Tips are short and customized. If the BMI or goal does not require tips, the section will be blank or skipped.
+
+---
+
+Built by **KS Jayawardana** | BSc in Applied Data Science and Communication | KDU
